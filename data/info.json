@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "catName": "Whiskers",
+    "birthdate": "01-01-2020",
+    "illness": "Hairball",
+    "weight": "9.9 lbs",
+    "breed": "Siamese",
+    "astrologicalSign": "Capricorn"
+  },
+  {
+    "id": "2",
+    "catName": "Fluffy",
+    "birthdate": "12-12-2019",
+    "illness": "None",
+    "weight": "11 lbs",
+    "breed": "Persian",
+    "astrologicalSign": "Sagittarius"
+  },
+  {
+    "id": "3",
+    "catName": "Simba",
+    "birthdate": "03-15-2018",
+    "illness": "Upper Respiratory Infection",
+    "weight": "13.2 lbs",
+    "breed": "Maine Coon",
+    "astrologicalSign": "Pisces"
+  },
+  {
+    "id": "4",
+    "catName": "Nala",
+    "birthdate": "07-22-2019",
+    "illness": "Feline Diabetes",
+    "weight": "8.8 lbs",
+    "breed": "Abyssinian",
+    "astrologicalSign": "Cancer"
+  }
+]

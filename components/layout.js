@@ -1,29 +1,30 @@
-import Head from  'next/head';
+import Head from 'next/head';
 import Link from 'next/link';
 
-export default function Layout({ children, home}) {
+export default function Layout({ children, home }) {
   return (
     <div>
-    <Head>
-    <title>Week 04</title>
-    </Head>
+      <Head>
+        <title>Cat Info Directory</title>
+      </Head>
       <header>
-      <nav>
-      <a href="https://www.santarosa.edu">Visit SRJC</a> 
-      </nav>
+        <nav>
+          
+        </nav>
       </header>
       <main>
         {children}
       </main>
-      { !home && (
-      <Link href="/" className="btn btn-primary mt-3"> 
-      back to home
-      </Link>
-      ) 
-  }
+      {!home && (
+        <div className="navigation">
+          <Link href="/">
+            <a className="btn btn-primary mt-3">Back to Home</a>
+          </Link>
+        </div>
+      )}
       <footer>
-      <p>The Footer</p>
-      </footer>
+        <p>We love our Vet Clinic</p>
+        </footer>
     </div>
   );
 }
